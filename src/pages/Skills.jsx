@@ -3,7 +3,7 @@ import axios from "axios";
 import Sidebar from "../components/Sidebar";
 import ConfirmModal from "../components/ConfirmModal";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://portfolio-backend-0gym.onrender.com";
 
 function Skills() {
   const [skills, setSkills] = useState([]);
